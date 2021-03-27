@@ -10,7 +10,7 @@ int main(){
   vector<int> a; // in this we create an empty  vector.
   vector<int> b(10,-1); // in this way we intialize a vector with 10 values default value -1.
   vector<int> c(b.begin(),b.end()); // in this way we can copy the contents of one vetor to another while inintializing.
-  vector<int> d(1,2,3,4); // in this way we create a vecto with inintialized values 1,2,3,4.
+  vector<int> d{1,2,3,4}; // in this way we create a vecto with inintialized values 1,2,3,4.
 
 
 //------------------------------------------------- traversal over vector.--------------------------------------------------------//
