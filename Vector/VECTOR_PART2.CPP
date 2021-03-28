@@ -13,7 +13,7 @@ int main(){
 
   cout << "Number of elements d vector can store" <<d.capacity()<< '\n'; //getting the idea number of elements this vector can store now.
 
-  cout<< " maximum number of elements in this vector can have"<<d.max_size()<<endl; //getting the idea of maximum number of elements that vector can store.
+  cout<<" maximum number of elements in this vector can have"<<d.max_size()<<endl; //getting the idea of maximum number of elements that vector can store.
 
   //-------------------------------------------Adding elements in vector-----------------------------------------------------------------//
 
@@ -25,6 +25,17 @@ int main(){
 
    cout<<endl;
 
+   //-----------------------------------------------------------------------------------------------------------------------------------//
+
+  //------------------------------------------Removing element--------------------------------------------------------------------------//
+
+   d.pop_back() // removing element from the end of a vector.
+
+   for( auto X : d){
+     cout<<X<<" ";
+   }
+
+  //------------------------------------------------------------------------------------------------------------------------------------//
 
 
   return 0;
