@@ -17,7 +17,7 @@ int main(){
 
   //-------------------------------------------Adding elements in vector-----------------------------------------------------------------//
 
-  cout<<d.push_back(81); // Adding element at the end of a vector.
+  d.push_back(81); // Adding element at the end of a vector.
 
   for( auto X : d){
     cout<<X<<" ";
