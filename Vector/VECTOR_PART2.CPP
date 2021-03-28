@@ -15,5 +15,17 @@ int main(){
 
   cout<< " maximum number of elements in this vector can have"<<d.max_size()<<endl; //getting the idea of maximum number of elements that vector can store.
 
+  //-------------------------------------------Adding elements in vector-----------------------------------------------------------------//
+
+  cout<<d.push_back(81); // Adding element at the end of a vector.
+
+  for( auto X : d){
+    cout<<X<<" ";
+  }
+
+   cout<<endl;
+
+
+
   return 0;
 }
