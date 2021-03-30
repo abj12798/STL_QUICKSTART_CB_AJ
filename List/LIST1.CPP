@@ -49,6 +49,10 @@ for( auto s : l1)
 
 cout<<"NULL"<<endl;
 
+//---------------------------Acessing element at head / end-----------------------------//
+
+cout<<l1.front()<<endl;
+cout<<l1.back()<<endl;
 
   return 0;
 }
