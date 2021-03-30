@@ -47,5 +47,16 @@ int main(){
 
   cout<<endl;
 
+  //-----------------------------------------Resiszing the vector--------------------------------------------------------------------//
+
+  d.resize(23);
+  cout<<d.capacity();
+  cout<<d.size();
+  for(auto X : d)
+    cout<<X<<" ";
+
+  cout<< '\n';
+
+
   return 0;
 }
