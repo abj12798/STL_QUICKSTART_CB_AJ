@@ -56,6 +56,21 @@ int main(){
     cout<<X<<" ";
 
   cout<< '\n';
+//------------------------------------------Resrivng memeory in vector--------------------------------------------------------------//
+
+d.reserve(1000); // via this we stop the doubling the memeory of vector because doubling of memory of vector is a tedious task.
+
+cout<<d.cpacity()<<endl;
+
+//-----------------------------------------deleting the vector---------------------------------------------------------------------//
+
+d.clear(); //via this we delete the memeory allocated to std::vector;
+
+if(d.empty())
+  cout<<"vector is empty now"<<endl;
+
+
+
 
 
   return 0;
