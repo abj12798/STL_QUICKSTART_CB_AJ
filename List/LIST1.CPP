@@ -31,6 +31,24 @@ for( auto s : l1)
 
 cout<<"NULL"<<endl;
 
+//--------------------------------------------------------------------------------------//
+
+//------------------------------Removing the elements from the list---------------------//
+
+l1.pop_front(); // removing the element from the front.
+
+for( auto s : l1)
+  cout<<s<<"-->";
+
+cout<<"NULL"<<endl;
+
+l1.pop_back(); //removing the element from the back.
+
+for( auto s : l1)
+  cout<<s<<"-->";
+
+cout<<"NULL"<<endl;
+
 
   return 0;
 }
