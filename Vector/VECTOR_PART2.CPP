@@ -60,7 +60,7 @@ int main(){
 
 d.reserve(1000); // via this we stop the doubling the memeory of vector because doubling of memory of vector is a tedious task.
 
-cout<<d.cpacity()<<endl;
+cout<<d.capacity()<<endl;
 
 //-----------------------------------------deleting the vector---------------------------------------------------------------------//
 
