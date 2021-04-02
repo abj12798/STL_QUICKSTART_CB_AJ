@@ -54,5 +54,26 @@ cout<<"NULL"<<endl;
 cout<<l1.front()<<endl;
 cout<<l1.back()<<endl;
 
+//--------------------------Removing element from the list-------------------------------//
+
+l1.remove("ANJALI");
+
+for( auto s : l1)
+  cout<<s<<"-->";
+
+cout<<"NULL"<<endl;
+//---------------------------------------------------------------------------------------//
+
+auto it = l1.begin();
+it++;
+//-----------------------Inserting an element in middle of list-------------------------//
+l1.insert(it,"ABJ2714");
+
+for( auto s : l1)
+  cout<<s<<"-->";
+
+cout<<"NULL"<<endl;
+//---------------------------------------------------------------------------------------//
+
   return 0;
 }
