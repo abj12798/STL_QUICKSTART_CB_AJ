@@ -27,7 +27,7 @@ int main(){
 
   }
 
-  if(m.find("Harsh") == m.end())
+  if(m.find("Harsh") == m.end() || m.count("Harsh") == 0)
     cout<<"Value not present"<<endl;
 
    m["Harsh"] = 29;
